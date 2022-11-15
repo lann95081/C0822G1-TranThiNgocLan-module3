@@ -1,7 +1,7 @@
-create database `furama_create_table`;
+create database if not exists `furama_create_table`;
 use `furama_create_table`;
 create table vi_tri(
-  ma_vi_tri int,
+  ma_vi_tri int primary key auto_increment,
   ten_vi_tri varchar(45)
 );
 create table trinh_do(

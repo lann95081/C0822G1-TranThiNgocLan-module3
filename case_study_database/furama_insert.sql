@@ -1,5 +1,5 @@
 create database if not exists furama_insert;
-
+use furama_create_table;
 insert into furama_create_table.vi_tri (ma_vi_tri, ten_vi_tri)
 values 
 (1,'Quản Lí'),
@@ -13,7 +13,8 @@ values
 (4,'Sau Đại Học');
 
 insert into furama_create_table.bo_phan (ma_bo_phan,ten_bo_phan)
-values (1,'Sale-Marketing'),
+values
+(1,'Sale-Marketing'),
 (2,'Hành Chính'),
 (3,'Phục Vụ'),
 (4,'Quản Lý');
