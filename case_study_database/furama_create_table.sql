@@ -3,7 +3,7 @@ create database `furama_create_table`;
 use `furama_create_table`;
 
 create table vi_tri(
-  ma_vi_tri int primary key,
+  ma_vi_tri int primary key auto_increment,
   ten_vi_tri varchar(45) not null
 );
 
@@ -41,7 +41,7 @@ create table kieu_thue(
 );
 
 create table nhan_vien(
-  ma_nhan_vien int primary key,
+  ma_nhan_vien int primary key auto_increment,
   ho_ten varchar(45) not null,
   ngay_sinh date not null,
   so_cmnd varchar(45) unique,
@@ -58,7 +58,7 @@ create table nhan_vien(
 );
 
 create table khach_hang(
-  ma_khach_hang int primary key,
+  ma_khach_hang int primary key auto_increment,
   ma_loai_khach int,
   ho_ten varchar(45) not null,
   ngay_sinh date not null,
@@ -71,7 +71,7 @@ create table khach_hang(
 );
 
 create table dich_vu(
-  ma_dich_vu int primary key,
+  ma_dich_vu int primary key auto_increment,
   ten_dich_vu varchar(45) not null,
   dien_tich int not null,
   chi_phi_thue double not null,
@@ -80,15 +80,15 @@ create table dich_vu(
   ma_loai_dich_vu int,
   tieu_chuan_phong varchar(45) not null,
   mo_ta_tien_nghi_khac varchar(45),
-  dien_tich_ho_boi double not null,
-  so_tang int not null,
+  dien_tich_ho_boi double,
+  so_tang int,
   dich_vu_mien_phi_di_kem text,
   foreign key(ma_kieu_thue) references kieu_thue(ma_kieu_thue),
   foreign key(ma_loai_dich_vu) references loai_dich_vu(ma_loai_dich_vu)
 );
 
 create table hop_dong(
-  ma_hop_dong int primary key, 
+  ma_hop_dong int primary key auto_increment, 
   ngay_lam_hop_dong datetime not null,
   ngay_ket_thuc datetime not null, 
   tien_dat_coc double not null,
