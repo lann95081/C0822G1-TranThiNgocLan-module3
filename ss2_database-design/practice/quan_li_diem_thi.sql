@@ -1,5 +1,5 @@
-CREATE DATABASE QuanLyDiemThi;
-USE QuanLyDiemThi;
+CREATE DATABASE quan_li_diem_thi;
+USE quan_li_diem_thi;
 CREATE TABLE HocSinh(
     MaHS VARCHAR(20) PRIMARY KEY,
     TenHS VARCHAR(50),

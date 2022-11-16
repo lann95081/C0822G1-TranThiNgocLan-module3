@@ -1,5 +1,5 @@
 drop database if exists truy_van_quan_li_ban_hang;
-create database  truy_van_quan_li_ban_hang;
+create database truy_van_quan_li_ban_hang;
 use truy_van_quan_li_ban_hang;
 
 create table customer (

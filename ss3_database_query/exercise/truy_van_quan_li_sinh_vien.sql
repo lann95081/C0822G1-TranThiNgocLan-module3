@@ -1,4 +1,5 @@
-create database quan_li_sinh_vien;
+drop database if exists quan_li_sinh_vien;
+create database if not exists quan_li_sinh_vien;
 use quan_li_sinh_vien;
 
 create table class
