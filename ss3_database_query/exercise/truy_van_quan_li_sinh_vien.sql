@@ -1,6 +1,6 @@
-drop database if exists quan_li_sinh_vien;
-create database if not exists quan_li_sinh_vien;
-use quan_li_sinh_vien;
+drop database if exists truy_van_quan_li_sinh_vien;
+create database if not exists truy_van_quan_li_sinh_vien;
+use truy_van_quan_li_sinh_vien;
 
 create table class
 (
@@ -72,6 +72,7 @@ select * from class where start_date like '%12%';
 select * from subject where credit between 3 and 5;
 
 -- Thay đổi mã lớp(ClassID) của sinh viên có tên ‘Hung’ là 2.
+set sql_safe_updates = 0;
 update student set class_id = 2 where student_name = 'Hung';
 
 -- Hiển thị các thông tin: StudentName, SubName, Mark. Dữ liệu sắp xếp theo điểm thi (mark) giảm dần. nếu trùng sắp theo tên tăng dần.
