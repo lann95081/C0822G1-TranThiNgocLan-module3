@@ -26,10 +26,10 @@ order by so_lan_dat_phong;
 select kh.ma_khach_hang, kh.ho_ten, lk.ten_loai_khach, hd.ma_hop_dong, dv.ten_dich_vu, hd.ngay_lam_hop_dong, hd.ngay_ket_thuc,
 dv.chi_phi_thue + sum(hdct.so_luong * dvdk.gia) as tong_tien
 from khach_hang kh
-join loai_khach lk on lk.ma_loai_khach = kh.ma_loai_khach
-join hop_dong hd on hd.ma_khach_hang = kh.ma_khach_hang
-join dich_vu dv on dv.ma_dich_vu = hd.ma_dich_vu
-join hop_dong_chi_tiet hdct on hdct.ma_hop_dong = hd.ma_hop_dong
-join dich_vu_di_kem dvdk on dvdk.ma_dich_vu_di_kem = hdct.ma_dich_vu_di_kem
-group by ma_hop_dong
+left join loai_khach lk on lk.ma_loai_khach = kh.ma_loai_khach
+left join hop_dong hd on hd.ma_khach_hang = kh.ma_khach_hang
+left join dich_vu dv on dv.ma_dich_vu = hd.ma_dich_vu
+left join hop_dong_chi_tiet hdct on hdct.ma_hop_dong = hd.ma_hop_dong
+left join dich_vu_di_kem dvdk on dvdk.ma_dich_vu_di_kem = hdct.ma_dich_vu_di_kem
+group by ma_hop_dong, ma_khach_hang
 order by ma_khach_hang asc, ma_hop_dong desc;
