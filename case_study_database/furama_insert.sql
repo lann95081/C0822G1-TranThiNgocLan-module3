@@ -1,4 +1,4 @@
-use furama_create_table;
+use `furama_create_table`;
 insert into vi_tri (ma_vi_tri, ten_vi_tri)
 values 
 (1,'Quản Lí'),
@@ -109,4 +109,3 @@ values
 (6,1,1,3),
 (7,2,1,2),
 (8,2,12,2);
-
