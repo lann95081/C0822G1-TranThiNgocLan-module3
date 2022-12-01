@@ -10,9 +10,9 @@ public class ProductRepository implements IProductRepository {
     private static List<Product> products = new ArrayList<>();
 
     static {
-        products.add(new Product(1, "Bơ", 12000, "Ngon bổ rẻ", "Nhà"));
-        products.add(new Product(2, "Hồng", 30000, "Ngon hơm", "Nhà Nận"));
-        products.add(new Product(3, "Dâu", 40000, "Hơi đát nha", "Không phải nhà Nận"));
+        products.add(new Product(1, "Bơ", 12000, "Ngon bổ rẻ", "Nhà Quang NN"));
+        products.add(new Product(2, "Hồng", 30000, "Ngon hơm", "Nhà Duy"));
+        products.add(new Product(3, "Dâu", 40000, "Hơi đắt nha", "Không phải nhà Nận"));
         products.add(new Product(4, "Táo", 50000, "Giòn ngọt", "Nhà Diễm"));
     }
 
