@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f63d26d7-d531-49ad-a70c-d8ecf695e319" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/case_study_jsp_servlet/case_study_jsp_servlet/src/main/java/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_jsp_servlet/case_study_jsp_servlet/src/main/java/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_jsp_servlet/case_study_jsp_servlet/src/main/java/model/CustomerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_jsp_servlet/case_study_jsp_servlet/src/main/java/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_jsp_servlet/case_study_jsp_servlet/src/main/java/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_jsp_servlet/case_study_jsp_servlet/src/main/java/repository/ICustomerTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_jsp_servlet/case_study_jsp_servlet/src/main/java/repository/impl/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_jsp_servlet/case_study_jsp_servlet/src/main/java/repository/impl/CustomerTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_jsp_servlet/case_study_jsp_servlet/src/main/java/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_jsp_servlet/case_study_jsp_servlet/src/main/java/service/ICustomerTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_jsp_servlet/case_study_jsp_servlet/src/main/java/service/impl/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_jsp_servlet/case_study_jsp_servlet/src/main/java/service/impl/CustomerTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_jsp_servlet/case_study_jsp_servlet/src/main/webapp/error_404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_jsp_servlet/case_study_jsp_servlet/src/main/webapp/view/customer/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_jsp_servlet/case_study_jsp_servlet/src/main/webapp/view/customer/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_jsp_servlet/case_study_jsp_servlet/src/main/webapp/view/customer/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_jdbc_crud/exercise/user_manager/src/main/java/controller/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_jdbc_crud/exercise/user_manager/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_jdbc_crud/exercise/user_manager/src/main/java/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_jdbc_crud/exercise/user_manager/src/main/java/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_jdbc_crud/exercise/user_manager/src/main/java/repository/impl/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_jdbc_crud/exercise/user_manager/src/main/java/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_jdbc_crud/exercise/user_manager/src/main/java/service/impl/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/.gradle/7.1.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/.gradle/7.1.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/.gradle/7.1.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/.gradle/7.1.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/.gradle/7.1.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/.gradle/7.1.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_jsp_servlet/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/build/libs/case_study_jsp_servlet-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/facility/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/facility/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_jsp_servlet/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss12_jdbc_crud/exercise/user_manager/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ss12_jdbc_crud/exercise/user_manager/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss12_jdbc_crud/exercise/user_manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ss12_jdbc_crud/exercise/user_manager/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2INv24Tpm1cwSS54dnheSIVPwHw" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f63d26d7-d531-49ad-a70c-d8ecf695e319" name="Changes" comment="" />
+      <created>1670034645156</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670034645156</updated>
+      <workItem from="1670034647551" duration="13000" />
+      <workItem from="1670038763158" duration="1651000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
