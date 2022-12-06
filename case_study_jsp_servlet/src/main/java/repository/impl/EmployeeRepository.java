@@ -23,7 +23,7 @@ public class EmployeeRepository implements IEmployeeRepository {
             "is_delete = 0;";
     private static final String DELETE = "update employee set is_delete = 1 where employee_id = ? and is_delete = 0;";
     private static final String SEARCH = "select * from employee where is_delete = 0 and employee_name like ? and " +
-            "employee_address like ? and employee_phone like ?;";
+            "employee_address like ? and employee_phone_number like ?;";
 
     @Override
     public List<Employee> findAll() {

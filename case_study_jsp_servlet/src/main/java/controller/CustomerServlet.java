@@ -55,11 +55,6 @@ public class CustomerServlet extends HttpServlet {
         List<Customer> customerList = iCustomerService.search(name, address, phone);
         List<CustomerType> customerTypeList = iCustomerTypeService.findAll();
 
-//        for (Customer customer : customerList) {
-//            String[] arr = customer.getCustomerBirthday().split("-");
-//            customer.setCustomerBirthday(arr[2] + "/" + arr[1] + "/" + arr[0]);
-//        }
-
         request.setAttribute("customerList", customerList);
         request.setAttribute("customerTypeList", customerTypeList);
 
@@ -75,11 +70,6 @@ public class CustomerServlet extends HttpServlet {
 
         List<Customer> customerList = iCustomerService.findAll();
         List<CustomerType> customerTypeList = iCustomerTypeService.findAll();
-
-//        for (Customer customer : customerList) {
-//            String[] arr = customer.getCustomerBirthday().split("-");
-//            customer.setCustomerBirthday(arr[2] + "/" + arr[1] + "/" + arr[0]);
-//        }
 
         request.setAttribute("customerList", customerList);
         request.setAttribute("customerTypeList", customerTypeList);

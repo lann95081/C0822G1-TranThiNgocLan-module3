@@ -64,11 +64,6 @@ public class EmployeeServlet extends HttpServlet {
         List<EducationDegree> educationDegreeList = iEducationDegreeService.findAll();
         List<Division> divisionList = iDivisionService.findAll();
 
-        for (Employee employee : employeeList) {
-            String[] arr = employee.getEmployeeBirthday().split("-");
-            employee.setEmployeeBirthday(arr[2] + "/" + arr[1] + "/" + arr[0]);
-        }
-
         request.setAttribute("employeeList", employeeList);
         request.setAttribute("positionList", positionList);
         request.setAttribute("educationDegreeList", educationDegreeList);
@@ -92,11 +87,6 @@ public class EmployeeServlet extends HttpServlet {
         List<Position> positionList = iPositionService.findAll();
         List<EducationDegree> educationDegreeList = iEducationDegreeService.findAll();
         List<Division> divisionList = iDivisionService.findAll();
-
-        for (Employee employee : employeeList) {
-            String[] arr = employee.getEmployeeBirthday().split("-");
-            employee.setEmployeeBirthday(arr[2] + "/" + arr[1] + "/" + arr[0]);
-        }
 
         request.setAttribute("employeeList", employeeList);
         request.setAttribute("positionList", positionList);
