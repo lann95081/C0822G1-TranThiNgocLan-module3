@@ -24,10 +24,10 @@ import java.util.List;
 
 @WebServlet(name = "EmployeeServlet", value = "/employee")
 public class EmployeeServlet extends HttpServlet {
-    IPositionService iPositionService = new PositionService();
-    IEducationDegreeService iEducationDegreeService = new EducationDegreeService();
-    IDivisionService iDivisionService = new DivisionService();
-    IEmployeeService iEmployeeService = new EmployeeService();
+    private IPositionService iPositionService = new PositionService();
+    private IEducationDegreeService iEducationDegreeService = new EducationDegreeService();
+    private IDivisionService iDivisionService = new DivisionService();
+    private IEmployeeService iEmployeeService = new EmployeeService();
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

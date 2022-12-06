@@ -71,7 +71,7 @@
                     </div>
                     <div style="margin-left: 30px">
                         <button type="button" class="btn btn-close-white">
-                            <a href="https://github.com/lann95081/C0822G1-TranThiNgocLan-module3">SERVICE</a>
+                            <a href="/facility">SERVICE</a>
                         </button>
                     </div>
                     <div style="margin-left: 30px">
