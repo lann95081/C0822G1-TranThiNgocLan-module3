@@ -27,7 +27,7 @@
         <div class="col-lg-9 pt-5">
             <div class="row" style="font-family: 'Times New Roman'">
                 <div class="col-lg-4">
-                    <span style="text-align: center; color: #1e2125 ">
+                    <span style="text-align: center; color: #1e2125 "><i class="fa-solid fa-location-dot"></i>
                         103 - 105 Vo Nguyen Giap Street,
                         Khue My Ward, Ngu Hanh Son District,
                         Danang City, Vietnam
@@ -36,13 +36,13 @@
                 </div>
                 <div class="col-lg-5">
                     <p style="text-align: center; color: #1e2125">
-                        84-236-3847 333/888
+                        <i class="fa-solid fa-phone"></i> 84-236-3847 333/888
                         <br>
-                        reservation@furamavietnam.com
+                        <i class="fa-solid fa-envelope"></i> reservation@furamavietnam.com
                     </p>
                 </div>
                 <div class="col-lg-3">
-                    <p style="color: #1e2125">Trần Thị Ngọc Lan</p>
+                    <p style="color: #1e2125"><i class="fa-solid fa-user"></i> Trần Thị Ngọc Lan</p>
                 </div>
             </div>
         </div>
@@ -142,17 +142,21 @@
         <div class="col-lg-4">
             <h4 style="color: #cbbe73; font-family: 'Al Nile'; margin-top: 30px">Contact US</h4>
             <span class="d-flex"
-                  style="color: darkgray; margin-top: 20px; margin-left: 30px; font-family: 'Times New Roman'">
+                  style="color: darkgray; margin-top: 20px; margin-left: 30px; font-family: 'Times New Roman'"><i
+                    class="fa-solid fa-location-dot"></i>
                 103 - 105 Vo Nguyen Giap Street, Khue My Ward, Ngu Hanh Son
                 District, Danang City, Vietnam
                 </span>
-            <p style="color: darkgray; margin-top: 20px; margin-left: 30px; font-family: 'Times New Roman'">
+            <p style="color: darkgray; margin-top: 20px; margin-left: 30px; font-family: 'Times New Roman'"><i
+                    class="fa-solid fa-phone"></i>
                 Tel.: 84-236-3847 333/888 * Fax: 84-236-3847 666
             </p>
             <span class="d-flex"
-                  style="color: darkgray; margin-top: 20px; margin-left: 30px; font-family: 'Times New Roman'">
+                  style="color: darkgray; margin-top: 20px; margin-left: 30px; font-family: 'Times New Roman'"><i
+                    class="fa-solid fa-envelope"></i>
                 Email: reservation@furamavietnam.com * www.furamavietnam.com GDS Codes: Amadeus-GD DADFUR,
-                Galileo/Apollo-GD 16236, Sabre-GD 032771, Worldspan- GD DADFU</span>
+                Galileo/Apollo-GD 16236, Sabre-GD 032771, Worldspan- GD DADFU
+            </span>
             <hr>
             <p style="margin-left: 150px; margin-top: 30px; color: darkgrey">&copy; 2018 Furama Resort Danang.</p>
         </div>
