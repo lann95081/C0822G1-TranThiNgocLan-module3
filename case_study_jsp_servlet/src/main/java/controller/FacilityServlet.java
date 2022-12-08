@@ -9,7 +9,6 @@ import service.IRentTypeService;
 import service.impl.FacilityService;
 import service.impl.FacilityTypeService;
 import service.impl.RentTypeService;
-import sun.rmi.server.Dispatcher;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

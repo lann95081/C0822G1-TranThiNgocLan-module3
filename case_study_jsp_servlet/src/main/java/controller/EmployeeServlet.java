@@ -52,11 +52,11 @@ public class EmployeeServlet extends HttpServlet {
                 searchEmployee(request, response);
                 break;
             default:
-                findAll(request, response);
+                showList(request, response);
         }
     }
 
-    private void findAll(HttpServletRequest request, HttpServletResponse response) {
+    private void showList(HttpServletRequest request, HttpServletResponse response) {
         RequestDispatcher dispatcher = request.getRequestDispatcher("view/employee/list.jsp");
 
         List<Employee> employeeList = iEmployeeService.findAll();
@@ -109,7 +109,7 @@ public class EmployeeServlet extends HttpServlet {
         }
         request.setAttribute("mess", mess);
         request.setAttribute("check", check);
-        findAll(request, response);
+        showList(request, response);
     }
 
     private void showEditForm(HttpServletRequest request, HttpServletResponse response) {

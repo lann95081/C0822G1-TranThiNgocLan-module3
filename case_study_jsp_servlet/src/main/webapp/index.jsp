@@ -56,7 +56,7 @@
                 <div class="navbar-nav col-lg-8">
                     <div>
                         <button type="button" class="btn btn-close-white">
-                            <a href="https://github.com/lann95081/C0822G1-TranThiNgocLan-module3">HOME</a>
+                            <a href="/index.jsp">HOME</a>
                         </button>
                     </div>
                     <div style="margin-left: 30px">
@@ -76,7 +76,7 @@
                     </div>
                     <div style="margin-left: 30px">
                         <button type="button" class="btn btn-close-white">
-                            <a href="https://github.com/lann95081/C0822G1-TranThiNgocLan-module3">CONTRACT</a>
+                            <a href="/contract">CONTRACT</a>
                         </button>
                     </div>
                 </div>

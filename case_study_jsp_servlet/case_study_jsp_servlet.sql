@@ -226,3 +226,7 @@ values
 (1,1,3),
 (2,1,2),
 (2,12,2);
+
+select * from contract where is_delete = 0;
+select * from attach_facility;
+select * from contract_detail;

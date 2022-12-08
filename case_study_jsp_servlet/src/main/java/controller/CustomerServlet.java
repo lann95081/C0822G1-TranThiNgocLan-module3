@@ -41,7 +41,7 @@ public class CustomerServlet extends HttpServlet {
                 searchCustomer(request, response);
                 break;
             default:
-                findAll(request, response);
+                showList(request, response);
         }
     }
 
@@ -65,7 +65,7 @@ public class CustomerServlet extends HttpServlet {
         }
     }
 
-    private void findAll(HttpServletRequest request, HttpServletResponse response) {
+    private void showList(HttpServletRequest request, HttpServletResponse response) {
         RequestDispatcher dispatcher = request.getRequestDispatcher("view/customer/list.jsp");
 
         List<Customer> customerList = iCustomerService.findAll();
@@ -90,7 +90,7 @@ public class CustomerServlet extends HttpServlet {
         }
         request.setAttribute("mess", mess);
         request.setAttribute("check", check);
-        findAll(request, response);
+        showList(request, response);
     }
 
     private void showEditForm(HttpServletRequest request, HttpServletResponse response) {

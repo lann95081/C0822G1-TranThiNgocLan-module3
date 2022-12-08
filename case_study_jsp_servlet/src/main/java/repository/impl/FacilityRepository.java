@@ -43,6 +43,7 @@ public class FacilityRepository implements IFacilityRepository {
                 String standard = resultSet.getString("standard_room");
                 String description = resultSet.getString("description_other_convenience");
                 double poolArea = resultSet.getDouble("pool_area");
+
                 int numberOfFloors = resultSet.getInt("number_of_floors");
                 String facilityFree = resultSet.getString("facility_free");
                 int rentType = resultSet.getInt("rent_type_id");
