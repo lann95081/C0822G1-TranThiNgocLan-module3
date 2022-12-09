@@ -98,6 +98,7 @@ public class ContractServlet extends HttpServlet {
     }
 
 
+
     private void createContract(HttpServletRequest request, HttpServletResponse response) {
         int id = Integer.parseInt(request.getParameter("id"));
         String startDate = request.getParameter("startDate");
